@@ -25,3 +25,10 @@ function OTP() {
     timer();
 
 }
+
+function goBack(){
+    document.getElementById("main").style.backgroundColor = "";
+    document.getElementById("loginbox").style.backgroundColor = "";
+    document.getElementById("otp").style.display = "none";
+
+}
